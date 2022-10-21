@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--======= Remix Icons ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--======= CSS ==========-->
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--======= Header ==========-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Hello</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--======= Main ==========-->
+    <main class="main">
+      <!--======= Home ==========-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assests/img/me.jpg" alt="" class="home__img" />
+          <div class="home__data">
+            <h1 class="home__name">Muhamed Salkić_</h1>
+            <p class="home__work">Frontend Developer</p>
+            <dl class="home__list">
+              <dt>AGE:</dt>
+              <dd>30</dd>
+              <dt>PHONE:</dt>
+              <dd>+385 95 878 2384</dd>
+              <dt>EMAIL:</dt>
+              <dd>muhamed.salkic@zohomail.eu</dd>
+              <dt>ADRESS:</dt>
+              <dd>Racinova ulica 8, 10000 Zagreb</dd>
+            </dl>
+            <div class="home__socials">
+              <a
+                href="https://github.com/muhamed-salkic"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/muhamed-salkic/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/muki.salkic/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Hello ==========-->
+      <section class="hello section container">
+        <h2 class="section__title">HI_</h2>
+
+        <p class="hello__details text-lg">
+          Hello, I'm Muhamed and I'm passionate about building things for the
+          web, either from ground up, or a given design. I recently started my
+          journey as a developer. I've stumbled upon a tutorial on how to create
+          a website, I was completely hooked after it. In the short time I've
+          been doing this, I've been trying to cultivate my passion for coding
+          by doing small projects, copying popular website's Home page and things
+          like that to challenge myself. You'll find that I'm a hard worker and
+          a quick learner. I'm now looking for a junior dev position to finally
+          kick start my career and learn amongst professionals.
+        </p>
+        <a
+          href="../Portfolio/assests/img/Resume-Muhamed-Salkic.pdf"
+          class="button button--flex text-sm"
+          ><i class="ri-download-line"></i> DOWNLOAD CV</a
+        >
+      </section>
+
+      <!--======= Services ==========-->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Services_</h2>
+
+        <div class="services__container grid">
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="/assests/img/web-design.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">IMPLEMENTING DESIGN</h3>
+            <p class="services__detail">Using a given design and turning it into a web page.</p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="/assests/img/laptop.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">Web Development</h3>
+            <p class="services__detail">Making a site from ground up.</p>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <!--======= Resume ==========-->
+      <section class="section container" id="resume">
+        <h2 class="section__title">Resume_</h2>
+
+        <div class="resume__container grid">
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EDUCATION</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                JUMS Electrotechnical High School
+              </h3>
+              <p class="resume__date text-sm">2007 - 2011</p>
+              <p class="resume__description text-lg">
+                Electrical Technician Degree
+              </p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">freeCodeCamp</h3>
+              <p class="resume__date text-sm">2021</p>
+              <p class="resume__description text-lg">
+                Completed Responsive Web Design certification
+              </p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">Codecademy</h3>
+              <p class="resume__date text-sm">2022</p>
+              <p class="resume__description text-lg">
+                Finished Front-End Engineer Career Path
+              </p>
+            </div>
+          </div>
+
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">BH Post Office</h3>
+              <p class="resume__date text-sm">2017-2018</p>
+              <p class="resume__description text-lg">
+                Post and package delivery and maintaining good relations with
+                customers.
+              </p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">Printas</h3>
+              <p class="resume__date text-sm">2019 - 2020</p>
+              <p class="resume__description text-lg">Offset Machine Operator</p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">Ascent</h3>
+              <p class="resume__date text-sm">2022</p>
+              <p class="resume__description text-lg">
+                Internship on a project in Java, doing entry level backend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Skills ==========-->
+      <section class="section container">
+        <h2 class="section__title">Skills_</h2>
+
+        <div class="skills__container grid">
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">FRONTEND</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">HTML</p>
+                  <span class="skills_number text-sm">80%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">CSS</p>
+                  <span class="skills_number text-sm">70%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">JavaScript</p>
+                  <span class="skills_number text-sm">55%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 55%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">React</p>
+                  <span class="skills_number text-sm">55%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 55%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">BACKEND</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">PHP</p>
+                  <span class="skills_number text-sm">25%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 25%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">NodeJS</p>
+                  <span class="skills_number text-sm">15%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 15%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">Python</p>
+                  <span class="skills_number text-sm">20%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 20%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MySQL</p>
+                  <span class="skills_number text-sm">15%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 15%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Projects ==========-->
+      <section class="work section container" id="portfolio">
+        <h2 class="section__title">Work_</h2>
+
+        <div class="project__categories">
+          <button class="category__btn text-xs active-work" 
+          data-filter="all">
+            ALL
+          </button>
+          <button class="category__btn text-xs" 
+          data-filter=".web">
+            WEB-SITES
+          </button>
+          <button class="category__btn text-xs" data-filter=".landing">
+            LANDING PAGES
+          </button>
+        </div>
+
+        <div class="projects__container grid">
+          <div class="project__item grid mix landing">
+            <img src="/assests/img/project-1.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE
+              </h3>
+              <p class="project_description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                ex.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>html5</li>
+                <li>css3</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <a href="" class="project_link text-sm">www.github.com</a>
+            </div>
+          </div>
+
+          <div class="project__item grid mix web">
+            <img src="/assests/img/spaceX.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg" data-filter=".web""">SPACE-X WEBSITE</h3>
+              <p class="project_description">
+                A copied SpaceX website, with some help from Youtube and Google
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>html5</li>
+                <li>css3</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <a href="" class="project_link text-sm">www.github.com</a>
+            </div>
+          </div>
+
+          <div class="project__item grid mix landing">
+            <img src="/assests/img/pepsi.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg">LANDING PAGE FOR PEPSI</h3>
+              <p class="project_description">
+                Just a beginner HTML and CSS landing page for Pepsi.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>html5</li>
+                <li>css3</li>
+                
+              </ul>
+
+              <a href="" class="project_link text-sm">www.github.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Contact ========== -->
+      <section class="contact section" id="contact">
+        <div class="contact__content container">
+          <h2 class="section__title">Get in touch_</h2>
+
+          <div class="contact__container grid">
+            <div class="contact__info">
+              <dl class="contact__list">
+                <dt>Phone:</dt>
+                <dd>+385 95 878 2384</dd>
+                <dt>Email:</dt>
+                <dd>muhamed.salkic@zohomail.eu</dd>
+              </dl>
+
+              <ul class="contact__socials">
+                <li>
+                  <a href="https://www.facebook.com/muki.salkic/" class="contact__social-link">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/muhamed-salkic/" class="contact__social-link">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="https://github.com/muhamed-salkic" class="contact__social-link">GitHub</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact__form">
+              <p class="contact__form-title">Or just write to me here_</p>
+
+              <form action="" id="contact-form">
+                <div class="contact__input-div">
+                  <input type="text" name ="name" placeholder="Your name" class="contact__input" id="contact_name">
+                </div>
+
+                <div class="contact__input-div">
+                  <input type="email" name="email" placeholder="mail@mail.com" class="contact__input" id="contact_email">
+                </div>
+
+                <div class="contact__input-div">
+                  <textarea name="message" placeholder="Type your message here" class="contact__input textarea" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <p class="contact__message text-sm" id="contact-message">Message</p>
+
+                <button type="submit" class="button contact__button">SEND</button>
+              </form>
+
+              <p class="footer__copy">
+                &copy; 2022 Muhamed Salkić. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <!--======= Mixitup ==========-->
+    <script src="/assests/js/mixitup.min.js"></script>
+
+    <!--======= EmailJS ==========-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!-- js-->
+    <script src="/assests/js/main.js"></script>
+  </body>
+</html>
